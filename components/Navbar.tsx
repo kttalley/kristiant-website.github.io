@@ -35,11 +35,11 @@ export const Navbar: React.SFC = () => {
               <span className="cursor-pointer">Bio</span>
             </Link>
           </li>
-          <li className="py-1 px-2 text-sm font-light text-gray-600 hover:text-gray-900">
+          {/* <li className="py-1 px-2 text-sm font-light text-gray-600 hover:text-gray-900">
             <Link href="/contact" passHref>
               <span className="cursor-pointer">Contact</span>
             </Link>
-          </li>
+          </li> */}
           {/* <li className="py-1 px-2 text-sm font-extralight grid place-items-center">
             <a href={data.facebook_link} className="leading-none">
               <svg
